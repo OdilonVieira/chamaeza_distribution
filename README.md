@@ -1,2 +1,2 @@
-# competitive_exclusion
-A test for competitive exclusion between species, based in species distribution modelling.
+# chamaeza_distribution
+Scripts utilizados no estudo da distribuição do gênero Chamaeza no estado do Rio de Janeiro, e na Mata Atlântica.
