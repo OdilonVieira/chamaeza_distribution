@@ -1,9 +1,8 @@
-<div style="text-align: justify">
-# chamaeza_distribution
+# **chamaeza_distribution**
 
 The genus Chamaeza is compose for five species of neotropical birds, where 3 of that have populations in the Atlantic Forest, *C. campanisona*, *C. meruloides* and *C. ruficauda*. In the state of the Rio de Janeiro (Brazil), this species occur in partial simpatry, tending to occur separetadely in specific altitudinals range. My study investigates this pattern, questioning if this is more relate to competitive exclusion or with ecological specialization. Here I expose the scripts used to conduce the experiment.
 
-## Functions
+## **Functions**
 
 ### clean_coords(**xy** = tibble-like, **region** = raster::RasterLayer or raster::SpatialPolygonDataFrame, **remove_duplicates** = Logical , **get_centroids** = Logical)
 
@@ -42,5 +41,3 @@ Create the distribution model, using k-fold cross validation, returning also -de
 
 #### **Result**
 A named list with a distribution model (`$model`), a evaluation model (`$evaluation`), a predicted distribution (`$distribution`), a threshold value (`$threshold_value`) and a binary map of occurrence absence based in the threshold (`$threshold_map`).
-</div>
-
